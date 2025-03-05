@@ -22,6 +22,7 @@ function WorkSection() {
                 <p className="font-bold md:text-3xl text-2xl text-balance">
                   {value.desc}
                 </p>
+                <p className="text-base text-justify font-medium italic bg-gradient-to-r from-[#B86ADF] via-[#FF6C63] to-[#FFB147] text-transparent bg-clip-text">{value.about}</p>
                 {/* <NorthEast sx={{ width: 30, height: 30, cursor: "pointer" }} /> */}
               </div>
               {/* <div>
